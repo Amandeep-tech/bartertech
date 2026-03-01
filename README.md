@@ -36,9 +36,9 @@ The dashboard fetches transaction data from an API, lets you filter and search t
 
 ```
 /app/page.tsx                    → Entry point
-/components/TransactionDashboard → Main orchestrator
-/hooks/useTransactions           → Handles API calls and state
-/services/transactionApi         → API logic
+/components/TransactionDashboard → Main component
+/hooks           → this folder handles reuseable logic
+/services/transaction.ts         → API logic
 ```
 
 Everything else supports these core pieces.
